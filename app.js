@@ -1,5 +1,6 @@
 function palindrome(str) {
-  for (let i = 0; i < str.length; i++){
+    for (let i = 0; i < str.length; i++){
+    //   removing non alphabetical characters
  if (str[i] < 'A' || str[i] > 'Z' &&
                     str[i] < 'a' || str[i] > 'z')
             {
